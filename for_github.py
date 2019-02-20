@@ -14,6 +14,3 @@ pprint.pprint([sheet.col_values(x) for x in range(3)])
 length = sheet.nrows
 print(length)
 a = [sheet.row_values(x) for x in range(length)]
-
-for n in range(9):
-    print(a[0][n])
